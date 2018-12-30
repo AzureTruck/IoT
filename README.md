@@ -39,7 +39,7 @@ IoT solution for Azure Truck consists of three Raspberry Pi devices connected wi
 
 All three devices are connected to the Azure cloud services but third one is configured as "Edge" device.
 
-## Microsoft Azure services for IoT
+## Microsoft Azure cloud services for IoT
 
 As you can see on the architecture diagram each device is connected with Azure cloud. Below I described each Azure service used in Azure Truck IoT solution.
 
@@ -79,3 +79,7 @@ The Azure IoT Edge runtime connects to Azure IoT Hub to facilitate communication
 - Azure Container Registry
 
 Modules are kept as a Docker images in the Azure Container Registry. Azure IoT Edge Runtime can pull images from here and run modules as Docker container.
+
+## Project source code
+
+Azure Truck IoT project source code can be found in this repository [here](https://github.com/AzureTruck/IoT/tree/master/AzureTruckIoT)
