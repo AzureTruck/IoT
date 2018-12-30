@@ -100,12 +100,27 @@ Below there is a list of IoT sensors used in this project together with connecti
 - Motion sensor
 - LCD screen
 
+<p align="center">
+  <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/FaceDetectorDeviceSchema.png?raw=true" alt="FaceDetectorDeviceSchema"/>
+</p>
+
 #### Sensors device (temperature, pressure, altitude and color)
 
 - Temperature and pressure sensor
 - RGB color detection sensor
 - RGB diode
 
+<p align="center">
+  <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/SensorsDeviceSchema.png?raw=true" alt="SensorsDeviceSchema"/>
+</p>
+
+#### Temperature Edge IoT device
+
+- Temperature sensor
+
+<p align="center">
+  <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/IoTEdgeDeviceSchema.png?raw=true" alt="IoTEdgeDeviceSchema"/>
+</p>
 
 ## Project source code
 
