@@ -3,9 +3,11 @@
 
 ![Image](https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT1.jpg?raw=true)
 
+
 ## Project description
 
 Azure Truck project was created to demonstrate how Microsoft technologies can be used together inside the car created by polish Microsoft Most Valuable Professionals. This part of the whole project describes Internet of Things (IoT) part which was created especially for Azure Truck.
+
 
 ## Solution
 
@@ -38,6 +40,7 @@ IoT solution for Azure Truck consists of three Raspberry Pi devices connected wi
 - Temperature sensors
 
 All three devices are connected to the Azure cloud services but third one is configured as "Edge" device.
+
 
 ## Microsoft Azure cloud services for IoT
 
@@ -84,9 +87,17 @@ Modules are kept as a Docker images in the Azure Container Registry. Azure IoT E
   <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT5.png?raw=true" alt="Solution diagram"/>
 </p>
 
+
 ## Devices specification
 
 There was three Raspberry Pi2 devices used in the Azure Truck project. Two of them running Windows 10 IoT Core system and on of them ("Edge device") is running Raspian9. For the first two devices there is dedicated Universal Windows Application (UWP) created with IoT extension to provide communication between the app and the device and sensors. "Edge" device with IoT Edge runtime has module written in Python.
+
+Below there is a list of IoT sensors used in this project together with connection schemas.
+
+#### Azure IoT Edge
+
+Aaa
+
 
 ## Project source code
 
