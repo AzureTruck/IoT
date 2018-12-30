@@ -37,3 +37,4 @@ Third board has below components:
 
 - Temperature sensors
 
+All three devices are connected to the Azure cloud services but third is configured as "Edge" device.
