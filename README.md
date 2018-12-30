@@ -94,9 +94,17 @@ There was three Raspberry Pi2 devices used in the Azure Truck project. Two of th
 
 Below there is a list of IoT sensors used in this project together with connection schemas.
 
-#### Azure IoT Edge
+#### Face detection devices
 
-Aaa
+- HDMI USB Camera
+- Motion sensor
+- LCD screen
+
+#### Sensors device (temperature, pressure, altitude and color)
+
+- Temperature and pressure sensor
+- RGB color detection sensor
+- RGB diode
 
 
 ## Project source code
