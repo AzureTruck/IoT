@@ -136,6 +136,8 @@ Below there is a list of IoT sensors used in this project together with connecti
 
 ## Final project
 
+All devices were packed and mounted in our Azure Truck. You can see the final result below.
+
 <p align="center">
   <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT7.png?raw=true" alt="Solution diagram"/>
 </p>
