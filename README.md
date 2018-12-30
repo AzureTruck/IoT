@@ -47,6 +47,10 @@ As you can see on the architecture diagram each device is connected with Azure c
 
 The Azure IoT Hub provides reliable and secure communication between IoT devices. It also establishes bi-directional communication between each device and the Azure cloud.
 
+#### Azure Storage
+
+Azure Storage was created to store data collected from the sensors (like temperature or pressure). This type of data is stored in the Azure Table Storage. Azure Blob Storage was created to keep images send from the IoT device with motion sensor and a camera.
+
 #### Azure Function for face detection
 
 First Azure Function App was created to use Azure Cognitive Services Face API to detect person from the image uploaded to the Azure Blob Storage. Once there is a new photo uploaded to the Storage, Function App is triggered. Face API is called and result about face detection is retuned through Azure IoT Hub to the IoT device with camera and LCD screen.
