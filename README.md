@@ -86,6 +86,6 @@ There was three Raspberry Pi2 devices used in the Azure Truck project. Two of th
 
 ## Project source code
 
-- Azure Truck IoT UWP application source code can be found in this repository [here](https://github.com/AzureTruck/IoT/tree/master/AzureTruckIoT)
+- Azure Truck IoT UWP application source code can be found in our official Github repository [here](https://github.com/AzureTruck/IoT/tree/master/AzureTruckIoT)
 
-- Python module source code for the "Edge" device can be found in this repository here
+- Python module source code for the "Edge" device can be found in in our official Github repository here
