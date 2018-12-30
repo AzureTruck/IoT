@@ -38,3 +38,21 @@ IoT solution for Azure Truck consists of three Raspberry Pi devices connected wi
 - Temperature sensors
 
 All three devices are connected to the Azure cloud services but third one is configured as "Edge" device.
+
+## Microsoft Azure services for IoT
+
+As you can see on the architecture diagram each device is connected with Azure cloud. Below I described each Azure service used in Azure Truck IoT solution.
+
+#### Azure IoT Hub
+
+The Azure IoT Hub provides reliable and secure communication between IoT devices. It also establishes bi-directional communication between each device and the Azure cloud.
+
+#### Azure Function for face detection
+
+First Azure Function App was created to use Azure Cognitive Services Face API to detect person from the image uploaded to the Azure Blob Storage. Once there is a new photo uploaded to the Storage, Function App is triggered. Face API is called and result about face detection is retuned through Azure IoT Hub to the IoT device with camera and LCD screen.
+
+#### Azure Function for temperature, pressure, altitude and color data collection
+
+Second Azure Function App was created to collect data from the device where pressure, temperature, altitude and color sensors are connected.
+
+
