@@ -53,6 +53,6 @@ First Azure Function App was created to use Azure Cognitive Services Face API to
 
 #### Azure Function for temperature, pressure, altitude and color data collection
 
-Second Azure Function App was created to collect data from the device where pressure, temperature, altitude and color sensors are connected.
+Second Azure Function App was created to collect data from the device where pressure, temperature, altitude and color sensors are connected. Once there is new information sent from the device, Function App is invoked and data is stored in the Azure Table Storage. This is also the main data source for Power BI dashboards.
 
 
