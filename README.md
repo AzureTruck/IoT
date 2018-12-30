@@ -95,7 +95,7 @@ There was three Raspberry Pi2 devices used in the Azure Truck project. Two of th
 Below there is a list of IoT sensors used in this project together with connection schemas.
 
 <p align="center">
-  <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT3.png?raw=true" alt="Solution diagram"/>
+  <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT3.JPG?raw=true" alt="Solution diagram"/>
 </p>
 
 #### Face detection devices
