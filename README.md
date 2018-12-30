@@ -10,7 +10,7 @@ Azure Truck project was created to demonstrate how Microsoft technologies can be
 ## Solution
 
 <p align="center">
-  <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT4.png?raw=true" alt="Solution diagram"/>
+  <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT6.png?raw=true" alt="Solution diagram"/>
 </p>
 
 IoT solution for Azure Truck consists of three Raspberry Pi devices connected with the Microsoft Azure Cloud. Each board has some sensors connected:
@@ -79,6 +79,10 @@ The Azure IoT Edge runtime connects to Azure IoT Hub to facilitate communication
 - Azure Container Registry
 
 Modules are kept as a Docker images in the Azure Container Registry. Azure IoT Edge Runtime can pull images from here and run modules as Docker container.
+
+<p align="center">
+  <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT5.png?raw=true" alt="Solution diagram"/>
+</p>
 
 ## Devices specification
 
