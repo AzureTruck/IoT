@@ -13,16 +13,27 @@ Azure Truck project was created to demonstrate how Microsoft technologies can be
   <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT4.png?raw=true" alt="Solution diagram"/>
 </p>
 
-IoT solution for Azure Truck consists of below components: 
+IoT solution for Azure Truck consists of three Raspberry Pi devices connected with the Microsoft Azure Cloud. Each board has some sensors connected:
+
+First board has below components:
 
 - HDMI Camera 
 
 - LCD screen 
 
+- Motion detector 
+
+Second board has below components:
+
 - RGB color LED 
 
 - Motion detector 
 
-- Temperature and pressure 
+- Temperature and pressure sensors
 
 - Color detector
+
+Third board has below components:
+
+- Temperature sensors
+
