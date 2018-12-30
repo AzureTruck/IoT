@@ -12,3 +12,17 @@ Azure Truck project was created to demonstrate how Microsoft technologies can be
 <p align="center">
   <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT4.png?raw=true" alt="Solution diagram"/>
 </p>
+
+IoT solution for Azure Truck consists of below components: 
+
+- HDMI Camera 
+
+- LCD screen 
+
+- RGB color LED 
+
+- Motion detector 
+
+- Temperature and pressure 
+
+- Color detector
