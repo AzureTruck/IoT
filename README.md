@@ -66,16 +66,16 @@ Azure IoT Edge consists of three main components:
 
 - Azure IoT Edge runtime
 
-Aaa
+The runtime enables custom logic and cloud logic on IoT Edge devices. It is located on the IoT Edge device, and executes management and communication operations.
 
 - Azure IoT Edge module (or modules)
 
-Aaa
+IoT Edge modules are units that consist of custom logic (for instance to analyze temperature) or cloud logic (like Azure Functions, Azure Stream Analytics and Azure Machine Learning). In our case there was temperature module writted in Python to detect temperature for the sensor.
 
 - IoT Hub
 
-Aaa
+The Azure IoT Edge runtime connects to Azure IoT Hub to facilitate communication between the Edge device and the cloud.
 
 - Azure Container Registry
 
-Aaa
+Modules are kept as a Docker images in the Azure Container Registry. Azure IoT Edge Runtime can pull images from here and run modules as Docker container.
