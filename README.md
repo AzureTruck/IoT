@@ -80,6 +80,12 @@ The Azure IoT Edge runtime connects to Azure IoT Hub to facilitate communication
 
 Modules are kept as a Docker images in the Azure Container Registry. Azure IoT Edge Runtime can pull images from here and run modules as Docker container.
 
+## Devices specification
+
+There was three Raspberry Pi2 devices used in the Azure Truck project. Two of them running Windows 10 IoT Core system and on of them ("Edge device") is running Raspian9. For the first two devices there is dedicated Universal Windows Application (UWP) created with IoT extension to provide communication between the app and the device and sensors. "Edge" device with IoT Edge runtime has module written in Python.
+
 ## Project source code
 
-Azure Truck IoT project source code can be found in this repository [here](https://github.com/AzureTruck/IoT/tree/master/AzureTruckIoT)
+- Azure Truck IoT UWP application source code can be found in this repository [here](https://github.com/AzureTruck/IoT/tree/master/AzureTruckIoT)
+
+- Python module source code for the "Edge" device can be found in this repository here
