@@ -37,4 +37,4 @@ IoT solution for Azure Truck consists of three Raspberry Pi devices connected wi
 
 - Temperature sensors
 
-All three devices are connected to the Azure cloud services but third is configured as "Edge" device.
+All three devices are connected to the Azure cloud services but third one is configured as "Edge" device.
