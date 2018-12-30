@@ -97,8 +97,8 @@ Below there is a list of IoT sensors used in this project together with connecti
 #### Face detection devices
 
 - HDMI USB Camera
-- Motion sensor
-- LCD screen
+- [Motion sensor](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview)
+- [LCD screen](https://www.adafruit.com/product/181)
 
 <p align="center">
   <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/FaceDetectorDeviceSchema.png?raw=true" alt="FaceDetectorDeviceSchema"/>
@@ -106,8 +106,10 @@ Below there is a list of IoT sensors used in this project together with connecti
 
 #### Sensors device (temperature, pressure, altitude and color)
 
-- Temperature and pressure sensor
-- RGB color detection sensor
+- [Temperature and pressure sensor](https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/overview)
+
+- [RGB color detection sensor](https://www.adafruit.com/product/1334)
+
 - RGB diode
 
 <p align="center">
@@ -116,7 +118,7 @@ Below there is a list of IoT sensors used in this project together with connecti
 
 #### Temperature Edge IoT device
 
-- Temperature sensor
+- [Temperature sensor](https://www.adafruit.com/product/165)
 
 <p align="center">
   <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/IoTEdgeDeviceSchema.png?raw=true" alt="IoTEdgeDeviceSchema"/>
