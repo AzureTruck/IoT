@@ -59,7 +59,20 @@ First Azure Function App was created to use Azure Cognitive Services Face API to
 
 Second Azure Function App was created to collect data from the device where pressure, temperature, altitude and color sensors are connected. Once there is new information sent from the device, Function App is invoked and data is stored in the Azure Table Storage. This is also the main data source for Power BI dashboards.
 
-#### Azure Container Registry
+#### Azure IoT Edge
 
 As mentioned before one of the devices was used as an "Edge" device. In this case we used Azure IoT Edge. Azure IoT Edge enables moving cloud analytics and custom business logic to IoT devices. The device can process logic directly without pushing data to the cloud.
+Azure IoT Edge consists of three main components:
+
+- Azure IoT Edge runtime
+
+Aaa
+
+- Azure IoT Edge module (or modules)
+
+Aaa
+
+- IoT Hub
+
+Aaa
 
