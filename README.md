@@ -134,3 +134,13 @@ Below there is a list of IoT sensors used in this project together with connecti
 
 - Python module source code for the "Edge" device can be found in in our official Github repository [here](https://github.com/AzureTruck/IoT/tree/master/TemperatureEdgeSolution)
 
+## Final project
+
+<p align="center">
+  <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT7.png?raw=true" alt="Solution diagram"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/AzureTruck/IoT/blob/master/Assets/AzureTruckIoT8.png?raw=true" alt="Solution diagram"/>
+</p>
+
