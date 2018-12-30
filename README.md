@@ -15,7 +15,7 @@ Azure Truck project was created to demonstrate how Microsoft technologies can be
 
 IoT solution for Azure Truck consists of three Raspberry Pi devices connected with the Microsoft Azure Cloud. Each board has some sensors connected:
 
-First board has below components:
+#### First board has below components:
 
 - HDMI Camera 
 
@@ -23,7 +23,7 @@ First board has below components:
 
 - Motion detector 
 
-Second board has below components:
+#### Second board has below components:
 
 - RGB color LED 
 
@@ -33,7 +33,7 @@ Second board has below components:
 
 - Color detector
 
-Third board has below components:
+#### Third board has below components:
 
 - Temperature sensors
 
